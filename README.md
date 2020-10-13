@@ -1,4 +1,4 @@
-# YourPluginName plugin for CakePHP
+# Rollbar plugin for CakePHP
 
 ## Installation
 
@@ -7,5 +7,5 @@ You can install this plugin into your CakePHP application using [composer](https
 The recommended way to install composer packages is:
 
 ```
-composer require your-name-here/your-plugin-name
+composer require ishan-biztech/cakephp-rollbar
 ```
