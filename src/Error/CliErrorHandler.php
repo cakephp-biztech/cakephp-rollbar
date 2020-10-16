@@ -5,13 +5,19 @@ use Cake\Error\BaseErrorHandler;
 
 class CliErrorHandler extends BaseErrorHandler
 {
-    public function _displayError($error, $debug)
+    /**
+     * {@inheritDoc}
+     */
+    protected function _displayError($error, $debug)
     {
-        debug('There has been an error from cli!');exit;
+        debug('There has been an error from cli!');
     }
 
-    public function _displayException($exception)
+    /**
+     * {@inheritDoc}
+     */
+    protected function _displayException($exception)
     {
-        debug('There has been an exception from cli!');exit;
+        debug('There has been an exception from cli!');
     }
 }
