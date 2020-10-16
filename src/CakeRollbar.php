@@ -4,6 +4,7 @@ namespace CakeRollbar;
 use Cake\Core\Configure;
 use Rollbar\Payload\Level;
 use Rollbar\Rollbar;
+use RuntimeException;
 
 class CakeRollbar
 {
@@ -15,7 +16,7 @@ class CakeRollbar
     public static function init()
     {
         if (empty(Configure::read('Rollbar.access_token'))) {
-            throw new \Exception('You must have to pass your Rollbar access_token', 1);
+            throw new RuntimeException('You must have to pass your Rollbar access_token');
         }
 
         Rollbar::init(Configure::read('Rollbar'));
