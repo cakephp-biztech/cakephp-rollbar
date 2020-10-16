@@ -13,7 +13,7 @@
 
     <!-- Add any additional test suites you want to run here -->
     <testsuites>
-        <testsuite name="Rollbar">
+        <testsuite name="CakeRollbar">
             <directory>tests/TestCase/</directory>
         </testsuite>
     </testsuites>

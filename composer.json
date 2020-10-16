@@ -1,5 +1,5 @@
 {
-    "name": "ishan-biztech/cakephp-rollbar",
+    "name": "ishan-biztech/cake-rollbar",
     "description": "CakePHP plugin integration for Rollbar",
     "type": "cakephp-plugin",
     "keywords": ["cakephp", "cakephp-plugin", "rollbar", "error-tracking"],
@@ -26,13 +26,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Rollbar\\": "src/"
+            "CakeRollbar\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Rollbar\\Test\\": "tests/",
-            "TestApp\\": "tests/test_app/src"
+            "CakeRollbar\\Test\\": "tests/",
+            "CakeRollbar\\TestApp\\": "tests/test_app/src"
         }
     },
     "scripts": {

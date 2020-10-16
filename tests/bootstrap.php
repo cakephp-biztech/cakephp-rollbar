@@ -78,4 +78,4 @@ $config = [
 ];
 ConnectionManager::setConfig('test', $config);
 
-Plugin::getCollection()->add(new \Rollbar\Plugin());
+Plugin::getCollection()->add(new \CakeRollbar\Plugin());

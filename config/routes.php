@@ -4,8 +4,8 @@ use Cake\Routing\Router;
 use Cake\Routing\Route\DashedRoute;
 
 Router::plugin(
-    'Rollbar',
-    ['path' => '/rollbar'],
+    'CakeRollbar',
+    ['path' => '/cake-rollbar'],
     function (RouteBuilder $routes) {
         $routes->fallbacks(DashedRoute::class);
     }

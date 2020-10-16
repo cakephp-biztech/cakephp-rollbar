@@ -1,9 +1,9 @@
 <?php
 
-namespace Rollbar\Test;
+namespace CakeRollbar\Test\TestCase;
 
+use CakeRollbar\Plugin;
 use Cake\TestSuite\IntegrationTestCase;
-use Rollbar\Plugin;
 use TestApp\Application;
 
 class PluginTest extends IntegrationTestCase
@@ -17,6 +17,6 @@ class PluginTest extends IntegrationTestCase
         $totalPlugins = $app->getPlugins();
 
         $this->assertCount(1, $totalPlugins);
-        $this->assertSame('Rollbar', $totalPlugins->get('Rollbar')->getName());
+        $this->assertSame('CakeRollbar', $totalPlugins->get('CakeRollbar')->getName());
     }
 }
