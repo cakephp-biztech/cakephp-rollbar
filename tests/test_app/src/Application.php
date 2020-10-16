@@ -14,6 +14,8 @@ class Application extends BaseApplication
 {
     public function middleware($middlewareQueue)
     {
+        $middlewareQueue->add(new ErrorHandlerMiddleware(Configure::read('Error.exceptionRenderer')));
+
         return $middlewareQueue;
     }
 }
