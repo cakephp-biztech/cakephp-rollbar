@@ -4,6 +4,7 @@ use Cake\Core\Configure;
 use Cake\Core\Plugin;
 use Cake\Datasource\ConnectionManager;
 use Cake\I18n\I18n;
+use Cake\Utility\Security;
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
@@ -64,6 +65,12 @@ Cache::setConfig([
         'prefix' => 'default_',
         'serialize' => true,
     ],
+]);
+
+// Set rollbar configurations
+Configure::write('Rollbar', [
+    'access_token' => Security::randomString(32),
+    'environment' => 'test',
 ]);
 
 require ROOT . DS . 'config' . DS . 'bootstrap.php';
