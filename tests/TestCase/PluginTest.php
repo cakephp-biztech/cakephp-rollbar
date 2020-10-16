@@ -3,8 +3,8 @@
 namespace CakeRollbar\Test\TestCase;
 
 use CakeRollbar\Plugin;
+use CakeRollbar\TestApp\Application;
 use Cake\TestSuite\IntegrationTestCase;
-use TestApp\Application;
 
 class PluginTest extends IntegrationTestCase
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace TestApp;
+namespace CakeRollbar\TestApp;
 
 use Cake\Core\Configure;
 use Cake\Core\Exception\MissingPluginException;
