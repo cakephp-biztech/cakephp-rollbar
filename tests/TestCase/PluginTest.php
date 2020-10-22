@@ -7,10 +7,13 @@ use CakeRollbar\Plugin;
 use CakeRollbar\TestApp\Application;
 use Cake\Error\Middleware\ErrorHandlerMiddleware as CakeErrorHandlerMiddleware;
 use Cake\Http\MiddlewareQueue;
-use Cake\TestSuite\IntegrationTestCase;
+use Cake\TestSuite\IntegrationTestTrait;
+use Cake\TestSuite\TestCase;
 
-class PluginTest extends IntegrationTestCase
+class PluginTest extends TestCase
 {
+    use IntegrationTestTrait;
+
     public function testBootstrap()
     {
         $plugin = new Plugin();
