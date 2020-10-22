@@ -32,7 +32,7 @@ mb_internal_encoding('UTF-8');
 
 Configure::write('debug', true);
 Configure::write('App', [
-    'namespace' => 'TestApp',
+    'namespace' => 'CakeRollbar\TestApp',
     'encoding' => 'UTF-8',
     'base' => false,
     'baseUrl' => false,
