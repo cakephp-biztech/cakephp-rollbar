@@ -19,11 +19,11 @@ CakePHP plugin integration for Rollbar error tracking tool.
 2. After installation, [load the plugin](https://book.cakephp.org/3/en/plugins.html#loading-a-plugin)
     ```php
     // src/Application.php
-    Plugin::load('Rollbar');
+    Plugin::load('CakeRollbar');
     ```
     Or, you can load the plugin using the shell command:
     ```sh
-    bin/cake plugin load Rollbar
+    bin/cake plugin load CakeRollbar
     ```
 
 ## Setup
