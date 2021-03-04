@@ -1,18 +1,18 @@
 {
-    "name": "ishan-biztech/cake-rollbar",
+    "name": "cakephp-biztech/cake-rollbar",
     "description": "CakePHP plugin integration for Rollbar",
     "type": "cakephp-plugin",
     "keywords": ["cakephp", "cakephp-plugin", "rollbar", "error-tracking"],
     "license": "MIT",
-    "homepage": "https://github.com/ishan-biztech/cakephp-rollbar",
+    "homepage": "https://github.com/cakephp-biztech/cakephp-rollbar",
     "support": {
-        "issues": "https://github.com/ishan-biztech/cakephp-rollbar/issues",
-        "source": "https://github.com/ishan-biztech/cakephp-rollbar"
+        "issues": "https://github.com/cakephp-biztech/cakephp-rollbar/issues",
+        "source": "https://github.com/cakephp-biztech/cakephp-rollbar"
     },
     "authors": [
         {
-            "name": "Ishan Vyas",
-            "email": "ishan@pm.biztechconsultancy.com"
+            "name": "CakePHP Biztech",
+            "role": "Author"
         }
     ],
     "require": {

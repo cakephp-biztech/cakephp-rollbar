@@ -13,7 +13,7 @@ CakePHP plugin integration for Rollbar error tracking tool.
 1. You can install this plugin into your CakePHP application using [composer](https://getcomposer.org)
 
     ```
-    composer require ishan-biztech/cake-rollbar
+    composer require cakephp-biztech/cake-rollbar
     ```
 
 2. After installation, [load the plugin](https://book.cakephp.org/3/en/plugins.html#loading-a-plugin)
